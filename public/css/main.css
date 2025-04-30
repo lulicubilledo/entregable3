@@ -37,8 +37,10 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  /* text-align: center; */
+  /* Eliminar o aumentar el max-width */
+  max-width: 100%; /* En lugar de 1280px */
+  margin: 0;      /* Quitar el margen automático */
+  padding: 0;
+  width: 100vw;   /* Asegurar que tome todo el ancho de la ventana */
+  overflow-x: hidden; /* Prevenir scroll horizontal */
 }
