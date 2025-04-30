@@ -1,31 +1,30 @@
 @import "normalize.css";
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 h1 {
-	font-size: 48px;
+  font-size: 48px;
 }
 
 h2 {
-	font-size: 36px;
+  font-size: 36px;
 }
 
 h3 {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 h4 {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 h5 {
-	font-size: 22px;
+  font-size: 22px;
 }
 
 h6 {
-	font-size: 20px;
+  font-size: 20px;
 }
-
 
 h1 {
   font-size: 3.2em;
@@ -37,10 +36,8 @@ h1 {
 }
 
 #app {
-  /* Eliminar o aumentar el max-width */
-  max-width: 100%; /* En lugar de 1280px */
-  margin: 0;      /* Quitar el margen automático */
+  max-width: 1280px;
+  margin: 0 auto;
   padding: 0;
-  width: 100vw;   /* Asegurar que tome todo el ancho de la ventana */
-  overflow-x: hidden; /* Prevenir scroll horizontal */
+  /* text-align: center; */
 }
